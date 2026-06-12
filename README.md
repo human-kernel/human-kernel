@@ -71,7 +71,7 @@ Four layers, from most private to most public:
 
 **v0.1 — the kernel takes shape**
 
-- [ ] **Protocol spec** — partitions, required fields, the bootstrap file, privacy tiers, the ledger
+- [ ] **Protocol spec** — partitions, required fields, the bootstrap file, privacy tiers, the ledger → [draft](./spec/kernel-v0.1.md) · [example kernel](./examples/ada-lumen/KERNEL.md)
 - [ ] **Validator** — structural checks and pointer integrity
 - [ ] **Kernel inspector** — view, edit, and correct your kernel locally
 - [ ] **MCP server** — any agent can read a kernel, zero context required
