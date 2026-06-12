@@ -22,7 +22,19 @@ _Avoid_: second brain, memory database
 The founder's context library instance (ZeYu-AI-Brain). Also the root of the earlier Brain OS effort, whose mission Human Kernel succeeds.
 
 **distillation**:
-Turning context-library material into kernel objects, with provenance pointing back to the sources.
+Turning context-library material into kernel entries, with provenance pointing back to the sources. The kernel never embeds evidence — it only points to it.
+
+**partition**:
+A top-level section of a kernel (identity, relationships, commitments, values, knowledge, capabilities, permissions), each carrying its own self-description so agents know what it is and whether they may write to it.
+
+**entry**:
+One file in a partition describing one thing (a person, a commitment, a value). The unit of reading, correction, and consent.
+
+**minimal kernel**:
+The smallest valid kernel: the bootstrap file plus identity and permissions. All other partitions are optional content, filled progressively.
+
+**ledger**:
+A kernel's append-only change log. Corrections invalidate; nothing is silently overwritten.
 
 **alter ego**:
 The expression layer that grows from a kernel: the counterpart that answers, reasons, reminds, and acts as the person within granted permissions. Always lowercase — a role, not a brand, not a runtime.
