@@ -41,9 +41,12 @@ Agents are getting better at acting. They are not getting better at knowing **wh
 
 ## The shape of it
 
+Four layers, from most private to most public:
+
 | Layer | What it is | What you control |
 | --- | --- | --- |
-| **The kernel** | A structured, evidence-backed model of one person. Every belief in it can answer: *why do you think this, where did it come from, is it still valid, can I correct it?* | Stored locally. Owned outright. |
+| **The context library** | Your private, full-volume context — notes, logs, transcripts, files, years of it. Messy by design; it is never required to be agent-legible. | It never leaves home. The kernel only points into it. |
+| **The kernel** | A structured, evidence-backed model of one person, distilled from the context library. Every belief in it can answer: *why do you think this, where did it come from, is it still valid, can I correct it?* | Stored locally. Owned outright. |
 | **The alter ego** | The expression layer that grows from the kernel: it answers, reasons, reminds, prepares, and acts as you — not a generic assistant with your data bolted on. | Acts only within permissions you grant. |
 | **The Human API** | The permissioned surface through which other people, products, and agents can query or invoke a slice of you. | You decide which slices exist, who can call them, and what requires confirmation. |
 
@@ -51,6 +54,7 @@ Agents are getting better at acting. They are not getting better at knowing **wh
 
 - **Local-first.** Your kernel's authority of record lives on your device, not on anyone's servers.
 - **Evidence over vibes.** Claims about you trace back to sources. Beliefs carry confidence, can expire, can be contested, and can be corrected — and corrections propagate.
+- **Pointers, not payloads.** The kernel never embeds raw evidence — it references it. What travels is the distilled model; the material it came from stays in your context library.
 - **You are the editor.** "That's wrong", "that's outdated", "that's true but never use it" are first-class operations.
 - **Conservative action.** Silence is a valid action. The alter ego asks before acting beyond its permissions, and nothing leaves your machine without an audit trail.
 - **No soul claims.** The kernel never claims to know your "true self". It holds evidence-backed, correctable hypotheses about what you care about and how you decide.
@@ -65,10 +69,23 @@ Agents are getting better at acting. They are not getting better at knowing **wh
 
 ## Roadmap
 
-- [ ] **Protocol spec v0.1** — the kernel's structure: evidence, beliefs, corrections, permissions
-- [ ] **Reference app** — local-first application implementing the spec
-- [ ] **Human API draft** — permissioned querying of kernel slices
-- [ ] **Agent runtime integration** — hand off authorized actions to execution backends
+**v0.1 — the kernel takes shape**
+
+- [ ] **Protocol spec** — partitions, required fields, the bootstrap file, privacy tiers, the ledger
+- [ ] **Validator** — structural checks and pointer integrity
+- [ ] **Kernel inspector** — view, edit, and correct your kernel locally
+- [ ] **MCP server** — any agent can read a kernel, zero context required
+
+**v0.2 — the kernel meets others**
+
+- [ ] **Human API draft** — per-recipient, per-purpose consent; query and invoke kernel slices
+- [ ] **Interception layer** — every read and write passes through policy: sensitivity inheritance, consent enforcement, audit
+- [ ] **Import adapters** — bring your memory from ChatGPT, Claude, Mem0, Obsidian, and others
+
+**Later**
+
+- [ ] **Execution handoff** — authorized actions delegated to agent runtimes
+- [ ] **Portable packaging** — your whole kernel as a single file you can move anywhere
 
 Followed and discussed in [Discussions](https://github.com/human-kernel/human-kernel/discussions). Early and unstable, developed in the open. Expect breaking changes; do not build on this yet.
 

@@ -36,6 +36,9 @@ The smallest valid kernel: the bootstrap file plus identity and permissions. All
 **ledger**:
 A kernel's append-only change log. Corrections invalidate; nothing is silently overwritten.
 
+**interception layer**:
+The policy point every kernel read and write passes through: sensitivity inheritance, consent enforcement, and audit. Planned for v0.2.
+
 **alter ego**:
 The expression layer that grows from a kernel: the counterpart that answers, reasons, reminds, and acts as the person within granted permissions. Always lowercase — a role, not a brand, not a runtime.
 _Avoid_: digital twin, 数字分身, AI companion, chatbot, assistant, personal OS
