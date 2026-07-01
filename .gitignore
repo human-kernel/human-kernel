@@ -12,3 +12,10 @@ coverage/
 # local kernel data — never commit a real kernel
 .local/
 *.kernel/
+
+# local-only agent entrypoints and private harness state
+/AGENTS.md
+/CLAUDE.md
+/harness/
+/.harness/
+/.harness-private/
