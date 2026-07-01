@@ -2,7 +2,7 @@
 
 # Human Kernel
 
-**Everything about you, structured into a kernel that you own.**
+**Your identity in the world of agents.**
 
 <p>
   <a href="https://humankernel.org">Website</a> ·
@@ -31,13 +31,19 @@
 
 ---
 
-> **Everything about you, structured into a kernel that you own.**
-> **From it grows your alter ego — your other side, flowing with you through the digital world, sometimes one step ahead.**
-> **Made of you. Owned by you. Moving with you.**
+> **In the real world, an ID lets society recognize you.**
+> **In the agent world, nothing does — until now.**
+> **Human Kernel is your identity layer: structured, owned by you, readable by any agent you authorize.**
 
-Human Kernel is an open-source protocol and local-first application for modeling one person — identity, values, relationships, knowledge, experience, preferences, capabilities, and permission boundaries — so that agents you authorize can understand you and act as your counterpart.
+Agents are getting better at acting. They are not getting better at knowing **who they act for**. Today, the understanding of you lives in scattered chat histories and closed memory features owned by platforms — fragmented, non-portable, and opaque.
 
-Agents are getting better at acting. They are not getting better at knowing **who they act for**. Today, the knowledge of you lives in scattered chat histories and closed memory features owned by platforms. Human Kernel takes the opposite position: the model of you should be a first-class artifact — structured, inspectable, correctable — and it should belong to you.
+Human Kernel takes the opposite position: a structured, evidence-backed model of one person — identity, values, relationships, knowledge, experience, preferences, capabilities, and permission boundaries — owned outright by that person and readable by any authorized agent with zero prior context.
+
+Think of it this way:
+- **Without Human Kernel:** every agent starts from zero, guessing who you are.
+- **With Human Kernel:** any agent understands you from the first second.
+
+An ID card proves *that* you are someone. Human Kernel tells agents *what kind of person* you are, how you decide, and what you care about. It is the first human representation layer for the agent era.
 
 ## The shape of it
 
@@ -46,7 +52,7 @@ Four layers, from most private to most public:
 | Layer | What it is | What you control |
 | --- | --- | --- |
 | **The context library** | Your private, full-volume context — notes, logs, transcripts, files, years of it. Messy by design; it is never required to be agent-legible. | It never leaves home. The kernel only points into it. |
-| **The kernel** | A structured, evidence-backed model of one person, distilled from the context library. Every belief in it can answer: *why do you think this, where did it come from, is it still valid, can I correct it?* | Stored locally. Owned outright. |
+| **The kernel** | A structured, evidence-backed model of one person, distilled from the context library. Your identity in the agent world: who you are, what you value, how you decide, who you know, what you can do. Every belief can answer: *why do you think this, where did it come from, is it still valid, can I correct it?* | Stored locally. Owned outright. Portable across any agent or platform. |
 | **The alter ego** | The expression layer that grows from the kernel: it answers, reasons, reminds, prepares, and acts as you — not a generic assistant with your data bolted on. | Acts only within permissions you grant. |
 | **The Human API** | The permissioned surface through which other people, products, and agents can query or invoke a slice of you. | You decide which slices exist, who can call them, and what requires confirmation. |
 
@@ -58,6 +64,7 @@ Four layers, from most private to most public:
 - **You are the editor.** "That's wrong", "that's outdated", "that's true but never use it" are first-class operations.
 - **Conservative action.** Silence is a valid action. The alter ego asks before acting beyond its permissions, and nothing leaves your machine without an audit trail.
 - **No soul claims.** The kernel never claims to know your "true self". It holds evidence-backed, correctable hypotheses about what you care about and how you decide.
+- **Portable and platform-agnostic.** Your kernel works with any agent, any runtime, any platform. It is not locked into one AI vendor’s ecosystem.
 - **Open protocol.** The schema, the protocol, and this app are open source, because asking for this much trust with a closed black box is not a reasonable ask.
 
 ## What this is not
@@ -66,6 +73,7 @@ Four layers, from most private to most public:
 - ❌ Not a notes app, memory database, or "second brain" viewer.
 - ❌ Not an AI companion, and not a personality test. It does not score you, type you, or diagnose you.
 - ❌ Not a cloud service holding your life. There is no server-side master copy.
+- ❌ Not another "AI memory" feature. Memory features are owned by platforms and locked in their ecosystems. Human Kernel is owned by you and works everywhere.
 
 ## Roadmap
 
