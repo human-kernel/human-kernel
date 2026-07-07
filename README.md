@@ -47,14 +47,16 @@ An ID card proves *that* you are someone. Human Kernel tells agents *what kind o
 
 ## The shape of it
 
-Four layers, from most private to most public:
+Human Kernel is centered on the kernel: the durable structure that remains readable, correctable, and owned by you. Around it sits its enclosing context library; outward from it grows your alter ego; and at the edge, the Human API exposes only the slices you authorize.
+
+Four concentric layers (read from most private to most public):
 
 | Layer | What it is | What you control |
 | --- | --- | --- |
-| **The context library** | Your private, full-volume context — notes, logs, transcripts, files, years of it. Messy by design; it is never required to be agent-legible. | It never leaves home. The kernel only points into it. |
-| **The kernel** | A structured, evidence-backed model of one person, distilled from the context library. Your identity in the agent world: who you are, what you value, how you decide, who you know, what you can do. Every belief can answer: *why do you think this, where did it come from, is it still valid, can I correct it?* | Stored locally. Owned outright. Portable across any agent or platform. |
-| **The alter ego** | The expression layer that grows from the kernel: it answers, reasons, reminds, prepares, and acts as you — not a generic assistant with your data bolted on. | Acts only within permissions you grant. |
-| **The Human API** | The permissioned surface through which other people, products, and agents can query or invoke a slice of you. | You decide which slices exist, who can call them, and what requires confirmation. |
+| **The context library** | The kernel's enclosing private context — notes, logs, transcripts, files, years of it. Messy by design; it is never required to be agent-legible. | It never leaves home. The kernel only points into it. |
+| **The kernel** | The center: a structured, evidence-backed model of one person. Your identity in the agent world: who you are, what you value, how you decide, who you know, what you can do. Every belief can answer: *why do you think this, where did it come from, is it still valid, can I correct it?* | Stored locally. Owned outright. Portable across any agent or platform. |
+| **The alter ego** | The expression layer generalized outward from the kernel and its context: it answers, reasons, reminds, prepares, and acts as you — not a generic assistant with your data bolted on. | Acts only within permissions you grant. |
+| **The Human API** | The outer permissioned surface through which other people, products, and agents can query or invoke a slice of you. | You decide which slices exist, who can call them, and what requires confirmation. |
 
 ## Principles
 
