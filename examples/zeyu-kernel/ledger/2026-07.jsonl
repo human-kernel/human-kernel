@@ -1,0 +1,14 @@
+{"ts":"2026-07-07T00:00:00+08:00","op":"add","entry":"KERNEL.md","actor":"agent:codex","detail":{"status":"bootstrap"}}
+{"ts":"2026-07-07T00:00:01+08:00","op":"add","entry":"identity/_partition.md","actor":"agent:codex","detail":{"partition":"identity"}}
+{"ts":"2026-07-07T00:00:02+08:00","op":"add","entry":"identity/identity-root.md","actor":"agent:codex","detail":{"status":"self-asserted"}}
+{"ts":"2026-07-07T00:00:03+08:00","op":"add","entry":"values/_partition.md","actor":"agent:codex","detail":{"partition":"values"}}
+{"ts":"2026-07-07T00:00:04+08:00","op":"add","entry":"values/protect-the-living-human.md","actor":"agent:codex","detail":{"status":"self-asserted"}}
+{"ts":"2026-07-07T00:00:05+08:00","op":"add","entry":"values/remove-first.md","actor":"agent:codex","detail":{"status":"self-asserted"}}
+{"ts":"2026-07-07T00:00:06+08:00","op":"add","entry":"values/trust-is-sacred.md","actor":"agent:codex","detail":{"status":"self-asserted"}}
+{"ts":"2026-07-07T00:00:07+08:00","op":"add","entry":"values/private-stays-private.md","actor":"agent:codex","detail":{"status":"self-asserted"}}
+{"ts":"2026-07-07T00:00:08+08:00","op":"add","entry":"knowledge/_partition.md","actor":"agent:codex","detail":{"partition":"knowledge"}}
+{"ts":"2026-07-07T00:00:09+08:00","op":"add","entry":"knowledge/single-source-of-truth.md","actor":"agent:codex","detail":{"status":"self-asserted"}}
+{"ts":"2026-07-07T00:00:10+08:00","op":"add","entry":"knowledge/context-legitimacy.md","actor":"agent:codex","detail":{"status":"self-asserted"}}
+{"ts":"2026-07-07T00:00:11+08:00","op":"add","entry":"knowledge/bayesian-prior-less-than-one.md","actor":"agent:codex","detail":{"status":"self-asserted"}}
+{"ts":"2026-07-07T00:00:12+08:00","op":"add","entry":"permissions/_partition.md","actor":"agent:codex","detail":{"partition":"permissions"}}
+{"ts":"2026-07-07T00:00:13+08:00","op":"add","entry":"permissions/defaults.md","actor":"agent:codex","detail":{"status":"self-asserted"}}
