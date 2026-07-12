@@ -47,7 +47,7 @@ An ID card proves *that* you are someone. Human Kernel tells agents *what kind o
 
 ## The shape of it
 
-Human Kernel is centered on the kernel: the durable structure that remains readable, correctable, and owned by you. Around it sits its enclosing context library; outward from it grows your alter ego; and at the edge, the Human API exposes only the slices you authorize.
+Human Kernel is centered on your kernel: the durable structure that remains readable, correctable, and owned by you. Its context library surrounds it; one or more alter egos express it outward through replaceable agent frameworks; and at the edge, the Human API exposes only the slices you authorize. The kernel is yours; the bodies it inhabits are rented.
 
 Four concentric layers (read from most private to most public):
 
@@ -55,7 +55,7 @@ Four concentric layers (read from most private to most public):
 | --- | --- | --- |
 | **The context library** | The kernel's enclosing private context — notes, logs, transcripts, files, years of it. Messy by design; it is never required to be agent-legible. | It never leaves home. The kernel only points into it. |
 | **The kernel** | The center: a structured, evidence-backed model of one person. Your identity in the agent world: who you are, what you value, how you decide, who you know, what you can do. Every belief can answer: *why do you think this, where did it come from, is it still valid, can I correct it?* | Stored locally. Owned outright. Portable across any agent or platform. |
-| **The alter ego** | The expression layer generalized outward from the kernel and its context: it answers, reasons, reminds, prepares, and acts as you — not a generic assistant with your data bolted on. | Acts only within permissions you grant. |
+| **The alter ego** | An expression layer generalized outward from the kernel and its context: each alter ego can answer, reason, remind, prepare, and act as you through a replaceable agent framework — not as a generic assistant with your data bolted on. | Acts only within permissions you grant. One kernel can have more than one. |
 | **The Human API** | The outer permissioned surface through which other people, products, and agents can query or invoke a slice of you. | You decide which slices exist, who can call them, and what requires confirmation. |
 
 ## Principles

@@ -9,7 +9,7 @@ The structured, auditable, locally-owned model of one person — everything an a
 _Avoid_: Human OS, memory app, second brain, understanding engine
 
 **kernel** (lowercase):
-One person's instance of the model ("your kernel") and the center of the concentric structure. Self-describing: readable by an agent that has never seen this person or this system before. Capitalized Human Kernel refers to the project and protocol.
+One person's instance of the model ("your kernel") and the center of the concentric structure. It belongs to the person, not to any agent framework that expresses it. Self-describing: readable by an agent that has never seen this person or this system before. Capitalized Human Kernel refers to the project and protocol.
 
 **zero-context legibility**:
 The kernel's defining property: an agent with no prior knowledge can orient and correctly interpret a kernel from its structure alone. The protocol is the only shared prior.
@@ -40,7 +40,7 @@ A kernel's append-only change log. Corrections invalidate; nothing is silently o
 The policy point every kernel read and write passes through: sensitivity inheritance, consent enforcement, and audit. Planned for v0.2.
 
 **alter ego**:
-The expression layer generalized outward from a kernel and its enclosing context: the counterpart that answers, reasons, reminds, and acts as the person within granted permissions. Always lowercase — a role, not a brand, not a runtime.
+One of potentially multiple expression/persona layers generalized outward from a kernel and its enclosing context: a counterpart that answers, reasons, reminds, and acts as the person within granted permissions through a replaceable agent framework. Always lowercase — a role, not a brand, not a runtime.
 _Avoid_: digital twin, 数字分身, AI companion, chatbot, assistant, personal OS
 
 **Human API**:
